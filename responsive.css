@@ -6,4 +6,33 @@
     .nav-menu span{
         display: block;
     }
+
+    .bennar{
+        flex-direction: column;
+    }
+
+    .bnr-info {
+        width: 100%;
+    }
+
+    .bnr-img {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 576px){
+     
+    nav {
+        padding: 40px 0px;
+    }
+
+    .bnr-info h1 {
+        font-size: 35px;
+        line-height: 2.5rem;
+    }
+
+    .dubble-btn {
+        gap: 10px;
+    }
 }

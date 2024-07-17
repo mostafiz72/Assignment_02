@@ -5,13 +5,36 @@
     font-family: sans-serif;
 }
 
+:root{
+    --desc-color: #808080;
+    --desc-size: 14px;
+    --title-size: 30px;
+    --main-bg-color: #000;
+}
+
+.btn{
+    background-color: tomato;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.btn-primary{
+    background-color: transparent;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid rgb(175, 170, 170);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
 .container{
     width: 80%;
     margin: auto;
 }
 
 header{
-    height: 600px;
     background: linear-gradient(rgb(24, 23, 23),rgb(48, 49, 48),rgb(0, 0, 0));
 }
 
@@ -54,4 +77,89 @@ nav ul li a{
     font-size: 20px;
     display: none;
     cursor: pointer;
+}
+
+/* bennar section start here now */
+/* bennar section start here now */
+
+.bennar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bnr-info{
+    width: 40%;
+}
+
+.bnr-info h1{
+    font-size: 46px;
+    font-weight: bold;
+    color: white;
+    line-height: 3.5rem;
+}
+
+.bnr-info p{
+    font-size: var(--desc-size);
+    color: var(--desc-color);
+    line-height: 20px;
+    padding: 20px 0px;
+}
+
+.dubble-btn{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 20px;
+}
+
+.bnr-img{
+    width: 30%;
+    padding: 20px;
+    position: relative;
+}
+
+.bnr-img img{
+    width: 100%;
+}
+
+.workout{
+    background-color: rgba(128, 128, 128, 0.719);
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute;
+    right: 0;
+    top: 25%;
+}
+
+.tutorial{
+    background-color: rgba(56, 55, 55, 0.726);
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6px;
+}
+
+.tutorial #boll{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #f44336;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.tutorial p, .workout p{
+    font-size: 12px;
+    color: rgb(187, 182, 182);
+    margin: 3px auto;
 }
