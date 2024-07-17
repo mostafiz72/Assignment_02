@@ -1,0 +1,9 @@
+@media screen and (max-width: 576px){
+    nav ul{
+        display: none;
+    }
+
+    .nav-menu span{
+        display: block;
+    }
+}
