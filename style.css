@@ -7,8 +7,8 @@
 
 :root{
     --desc-color: #808080;
-    --desc-size: 14px;
-    --title-size: 30px;
+    --desc-size: 16px;
+    --title-size: 46px;
     --main-bg-color: #000;
 }
 
@@ -162,4 +162,54 @@ nav ul li a{
     font-size: 12px;
     color: rgb(187, 182, 182);
     margin: 3px auto;
+}
+
+/* hobits section start here now */
+/* hobits section start here now */
+
+
+.habits {
+    background: var(--main-bg-color);
+    padding: 30px 0px;
+    text-align: center;
+}
+
+.habits h2{
+    font-size: var(--title-size);
+    color: white;
+    margin: 20px 0px;
+}
+
+.habits p{
+    font-size: var(--desc-size);
+    color: var(--desc-color);
+    line-height: 25px;
+    width: 40%;
+    margin: 20px auto;
+}
+
+.habits-full-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 80px 0px;
+}
+
+.habits-single-box{
+    width: 25%;
+}
+
+.habits-single-box h4{
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+}
+
+.habits-single-box p{
+    width: 80%;
+}
+
+.habits-single-box img{
+    border-radius: 50%;;
 }
