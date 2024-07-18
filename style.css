@@ -446,3 +446,108 @@ nav ul li a{
 .exersise-single-box1 p{
     color: black;
 }
+
+/* Culculate section start here now */
+/* Culculate section start here now */
+
+.calculate{
+    background-color: var(--main-bg-color);
+}
+
+.calculate-title {
+    padding-left: 12rem;
+}
+
+.calculate-title h2{
+    color: white;
+    font-size: var(--title-size);
+}
+
+.calculate-title p{
+    color: var(--desc-color);
+    font-size: var(--desc-size);
+    padding: 20px 0px;
+    width: 80%;
+    line-height: 30px;
+}
+
+.calculate-area{
+    background-color: #1f1e1e;
+    padding: 30px 0px;
+}
+
+.calculate-bmi{
+    display: flex;
+    justify-content: space-between;
+}
+
+.table-bmi{
+    width: 40%;
+}
+.table-bmi h2{
+    color: white;
+    margin-bottom: 40px;
+}
+.connect-bmi{
+    width: 60%;
+}
+
+.table-bmi table{
+    text-align: left;
+}
+.table-bmi table th{
+    color: white;
+    padding: 10px 20px; 
+}
+
+.table-bmi table tr td{
+    color: var(--desc-color);
+    padding: 10px 20px;
+}
+
+.connect-bmi h2{
+    color: white;
+    font-weight: bold;
+}
+
+.connect-bmi p{
+    color: var(--desc-color);
+    padding: 20px 0px;
+    line-height: 30px;
+}
+
+#input{
+    background-color: #3f3f3f;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    color: #858080;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+#input:focus{
+    color: white;
+}
+
+.sex{
+    width: 48%;
+    padding-right: 20px;
+}
+.activity{
+    display: block;
+    width: 98%;
+    padding-right: 20px;
+}
+
+.connect-bmi input{
+    width: 48%;
+    margin-right: 6px;
+    margin-bottom: 10px;
+}
+
+#calculate-btn{
+    width: 30%;
+    margin: 20px 0px;
+}
