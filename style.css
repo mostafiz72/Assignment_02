@@ -10,6 +10,7 @@
     --desc-size: 16px;
     --title-size: 46px;
     --main-bg-color: #000;
+    --detault-font: @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 }
 
 .btn{
@@ -19,6 +20,7 @@
     border: none;
     border-radius: 20px;
     cursor: pointer;
+    font-size: 16px;
 }
 .btn-primary{
     background-color: transparent;
@@ -27,6 +29,7 @@
     border: 1px solid rgb(175, 170, 170);
     border-radius: 20px;
     cursor: pointer;
+    font-size: 16px;
 }
 
 .container{
@@ -53,7 +56,7 @@ nav{
 nav ul{
     list-style: none;
     display: flex;
-    border: 1px solid #808080;
+    border: 1px solid #494949;
     border-radius: 20px;
     padding: 2px;
 }
@@ -93,17 +96,23 @@ nav ul li a{
 }
 
 .bnr-info h1{
-    font-size: 46px;
+    font-size: 60px;
     font-weight: bold;
     color: white;
-    line-height: 3.5rem;
+    line-height: 4.5rem;
+}
+
+.bnr-info h1 span{
+    font-family: initial;
+    font-style: italic;
+    font-weight: 200;
 }
 
 .bnr-info p{
     font-size: var(--desc-size);
     color: var(--desc-color);
-    line-height: 20px;
-    padding: 20px 0px;
+    line-height: 30px;
+    padding: 40px 0px;
 }
 
 .dubble-btn{
@@ -212,4 +221,228 @@ nav ul li a{
 
 .habits-single-box img{
     border-radius: 50%;;
+}
+
+/* runing section start here now */
+/* runing section start here now */
+
+
+.running{
+    background: var(--main-bg-color);
+    padding: 30px 0px;
+    color: white;
+}
+
+.running-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #686868;
+    border-radius: 20px;
+}
+
+.running-desc{
+    width: 40%;
+    padding-left: 20px;
+}
+
+.running-desc h2{
+    font-size: 46px;
+    line-height: 3.5rem;
+    color: white;
+}
+.running-desc p{
+    font-size: var(--desc-size);
+    line-height: 25px;
+    padding: 20px 0px;
+    color:rgb(175, 170, 170)
+}
+
+.running-img{
+    width: 35%;
+}
+
+.running-img img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+/* Exercises section start here now */
+/* Exercises section start here now */
+
+.exercise{
+    background: var(--main-bg-color);
+    padding: 50px 0px;
+    color: white;
+}
+
+.exercise h2{
+    font-size: var(--title-size);
+    color: white;
+    margin: 20px 0px;
+}
+.exercise p{
+    font-size: var(--desc-size);
+    color: var(--desc-color);
+    line-height: 25px;
+    width: 50%;
+}
+
+.exersise-full-box{
+    padding: 50px 0px;
+}
+.exersise-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.exersise-single-box1{
+    width: 30%;
+    height: 300px;
+    display: flex;
+    justify-content: left;
+    align-items: self-end;
+    padding: 20px;
+    background-image: url(images/exercise1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.exersise-single-box2{
+    width: 40%;
+    height: 300px;
+    display: flex;
+    color: white;
+    justify-content: left;
+    padding: 20px;
+    background-image: url(images/exercise2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.exersise-single-box3{
+    width: 30%;
+    height: 300px;
+    color: white;
+    display: flex;
+    justify-content: left;
+    align-items: self-end;
+    padding: 20px;
+    background-image: url(images/exercise3.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.bg-overlay-1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(3, 248, 248, 0.623);
+    top: 0;
+    right: 0;
+}
+.bg-overlay-2{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 0, 0, 0.253);
+    top: 0;
+    right: 0;
+}
+.bg-overlay-3{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(48, 48, 48, 0.466);
+    top: 0;
+    right: 0;
+}
+
+
+.exersise-single-box4{
+    width: 40%;
+    height: 300px;
+    display: flex;
+    justify-content: right;
+    text-align: right;
+    padding: 20px;
+    background-image: url(images/exercise4.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.exersise-single-box5{
+    width: 25%;
+    height: 300px;
+    display: flex;
+    color: white;
+    justify-content: left;
+    align-items: flex-end;
+    padding: 20px;
+    background-image: url(images/exercise5.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.exersise-single-box6{
+    width: 35%;
+    height: 300px;
+    color: white;
+    display: flex;
+    justify-content: left;
+    align-items: self-end;
+    padding: 20px;
+    background-image: url(images/exercise6.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.bg-overlay-4{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(22, 22, 22, 0.623);
+    top: 0;
+    right: 0;
+}
+.bg-overlay-5{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(9, 255, 0, 0.253);
+    top: 0;
+    right: 0;
+}
+.bg-overlay-6{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 4, 255, 0.295);
+    top: 0;
+    right: 0;
+}
+
+.exersise-single-box1 p, .exersise-single-box2 p, .exersise-single-box3 p{
+    position: absolute;
+    color: white;
+    font-weight: bold;
+}
+.exersise-single-box4 p, .exersise-single-box5 p, .exersise-single-box6 p{
+    position: absolute;
+    color: white;
+    font-weight: bold;
+}
+
+.exersise-single-box1 p{
+    color: black;
 }

@@ -15,6 +15,11 @@
         width: 100%;
     }
 
+    .bnr-info h1 {
+        font-size: 40px;
+        line-height: 3.5rem;
+    }
+
     .bnr-img {
         width: 100%;
     }
@@ -30,6 +35,60 @@
 
     .habits p {
         width: 100%;
+    }
+
+    .running-box {
+        flex-direction: column;
+    }
+
+    .running-desc {
+        width: 100%;
+    }
+
+    #join-btn{
+        width: 100%;
+    }
+
+    .running-desc h2 {
+        font-size: 36px;
+        line-height: 3.5rem;
+    }
+
+    .running-img {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .exersise-single-box1 {
+        width: 50%;
+        height: 200px;
+    }
+    .exersise-single-box2 {
+        width: 50%;
+        height: 200px;
+    }
+    .exersise-single-box3 {
+        display: none;
+    }
+
+    .exercise p {
+        width: 100%;
+    }
+    .exercise h2 {
+        font-size: 35px;
+    }
+
+    .exersise-single-box4 {
+        width: 45%;
+        height: 200px;
+    }
+
+    .exersise-single-box5 {
+        width: 55%;
+        height: 200px;
+    }
+    .exersise-single-box6 {
+        display: none;
     }
 }
 
