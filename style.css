@@ -118,7 +118,6 @@ nav ul li a{
 .dubble-btn{
     display: flex;
     align-items: center;
-    cursor: pointer;
     gap: 20px;
 }
 
@@ -489,7 +488,7 @@ nav ul li a{
     margin-bottom: 40px;
 }
 .connect-bmi{
-    width: 60%;
+    width: 50%;
 }
 
 .table-bmi table{
@@ -620,4 +619,66 @@ nav ul li a{
     padding: 0;
     margin: 0;
     line-height: 0px;
+}
+
+/* footer section start here now */
+/* footer section start here now */
+
+footer{
+    background-color: #1b1b1b;
+    padding: 20px 0px;
+}
+
+.footer-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-area{
+    width: 40%;
+}
+.logo-area h1{
+    color: tomato;
+    font-size: var(--title-size);
+    padding: 30px 0px;
+    cursor: pointer;
+}
+.logo-area p{
+    font-size: var(--desc-size);
+    color: var(--desc-color);
+    line-height: 30px;
+}
+
+.list-area{
+    width: 15%;
+}
+
+.list-area h2{
+    color: white;
+    padding: 20px 0px;
+}
+.list-area ul{
+    list-style: none;
+}
+.list-area ul li{
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.list-area ul li a{
+    text-decoration: none;
+    color: #8b8b8b;
+}
+
+hr{
+    border: 1px solid #2e2d2d;
+    margin-top: 30px;
+}
+
+footer span{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
 }

@@ -43,6 +43,7 @@
 
     .running-desc {
         width: 100%;
+        padding-left: 0px;
     }
 
     #join-btn{
@@ -56,7 +57,7 @@
 
     .running-img {
         width: 100%;
-        margin-top: 50px;
+        margin-top: 30px;
     }
 
     .exersise-single-box1 {
@@ -90,6 +91,84 @@
     .exersise-single-box6 {
         display: none;
     }
+
+    .calculate-title {
+        padding-left: 0rem;
+    }
+
+    .calculate-title p {
+        width: 100%;
+    }
+
+    .calculate-title h2 {
+        font-size: 40px;
+    }
+
+    .calculate-bmi {
+        flex-direction: column;
+    }
+
+    .table-bmi {
+        width: 100%;
+    }
+
+    .connect-bmi {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .all-team-member {
+        flex-direction: column;
+    }
+
+    .team-box {
+        padding: 20px;
+    }
+
+    .single-box {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .single-box:last-child{
+        margin-bottom: 5px;
+    }
+
+    .meeting h2 {
+        font-size: 40px;
+    }
+
+    .meeting p {
+        width: 100%;
+    }
+
+    .connect-bmi input {
+        margin-right: 0px;
+        margin-bottom: 8px;
+    }
+
+    #calculate-btn {
+        width: 40%;
+    }
+
+    .footer-box {
+        flex-direction: column;
+    }
+
+    .logo-area {
+        width: 100%;
+    }
+
+    .list-area {
+        width: 100%;
+    }
+
+    footer span {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+
 }
 
 
