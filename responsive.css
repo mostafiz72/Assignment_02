@@ -201,6 +201,16 @@
         margin-top: 50px;
     }
 
+    .price-box{
+        flex-direction: column;
+        padding: 40px 0px;
+    }
+
+    .pricing-title h1 {
+        font-size: 26px;
+        line-height: 35px;
+    }
+
 }
 
 
@@ -221,5 +231,10 @@
 
     .habits h2{
         font-size: 36px;
+    }
+
+    
+    .pricing-title h1 {
+        font-size: 20px;
     }
 }
