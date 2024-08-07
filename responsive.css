@@ -168,6 +168,38 @@
         justify-content: flex-start;
     }
 
+    .btn{
+        font-size: 12px;
+    }
+
+    .btn-primary {
+        font-size: 12px;
+    }
+
+    .connect-bmi input {
+        width: 49%;
+    }
+
+    .sex {
+        width: 49%;
+    }
+
+    .activity {
+        width: 100%;
+    }
+
+    #calculate-btn {
+        width: 50%;
+    }
+
+    .single-box {
+        height: 200px;
+    }
+
+    .habits-full-box {
+        padding: 0px;
+        margin-top: 50px;
+    }
 
 }
 
@@ -185,5 +217,9 @@
 
     .dubble-btn {
         gap: 10px;
+    }
+
+    .habits h2{
+        font-size: 36px;
     }
 }

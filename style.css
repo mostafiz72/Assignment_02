@@ -21,6 +21,11 @@
     border-radius: 20px;
     cursor: pointer;
     font-size: 16px;
+    transition: .5s;
+}
+
+.btn:hover{
+    background-color: rgb(204, 57, 31);
 }
 .btn-primary{
     background-color: transparent;
@@ -497,6 +502,11 @@ nav ul li a{
 .table-bmi table th{
     color: white;
     padding: 10px 20px; 
+}
+
+table, th, td {
+    border-collapse: collapse;
+    border: 1px solid rgb(77, 72, 72);
 }
 
 .table-bmi table tr td{
