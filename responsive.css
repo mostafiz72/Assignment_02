@@ -78,7 +78,7 @@
     }
 
     .exercise p {
-        width: 100%;
+        width: 90%;
     }
     .exercise h2 {
         font-size: 35px;
@@ -107,6 +107,10 @@
 
     .calculate-title h2 {
         font-size: 40px;
+    }
+
+    .table-bmi table {
+        width: 100%;
     }
 
     .calculate-bmi {
@@ -190,7 +194,7 @@
     }
 
     .activity {
-        width: 100%;
+        width: 99%;
     }
 
     #calculate-btn {
